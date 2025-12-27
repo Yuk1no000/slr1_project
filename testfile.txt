@@ -1,0 +1,10 @@
+S' -> S
+S -> while ( C ) { S }
+S -> id = E
+C -> E > E
+C -> E < E
+C -> E == E
+E -> id + E
+E -> num + E
+E -> id
+E -> num
